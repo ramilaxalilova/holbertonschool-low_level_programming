@@ -21,3 +21,4 @@ int main(void)
 	else
 		printf("%dis negative\n", n);
 	return (0);
+}

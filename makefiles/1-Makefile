@@ -1,0 +1,4 @@
+CSS = gcc
+SRC = main.c school.c
+all: $(SRC)
+	$(CSS) $(SRC) -o school

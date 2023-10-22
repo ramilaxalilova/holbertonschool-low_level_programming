@@ -10,24 +10,25 @@ void print_triangle(int size)
 	int row;
 	int col;
 
-	if (size > 0)
+	if (size <= 0)
 	{
-		for (row = 1; row <= size; row++)
+		_putchar('\n');
+	}
+	else
+	{
+		for (row = 0; row < size; row++)
 		{
-			for (col = size - row; col > 0; col--)
+			for (col = size - row; col > 1; col--)
 			{
-				_putchar(' ');
+				_putchar(32);
 			}
-			for (col = 0; col < row; col++)
+			for (col = 0; col <= row; col++)
 			{
-				_putchar('#');
+				_putchar(35);
 			}
 			_putchar('\n');
 
-			if (row == col)
-				continue;	
 		}
-	}
 
-	_putchar('\n');
+	}
 }

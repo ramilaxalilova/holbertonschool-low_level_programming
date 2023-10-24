@@ -19,7 +19,7 @@ void puts_half(char *str)
 	if (len % 2 == 0)
 		newlen = len / 2;
 	else
-		newlen = (len - 1) / 2;
+		newlen = (len + 1) / 2;
 
 	for (i = newlen; i < len; i++)
 	{

@@ -6,6 +6,7 @@
  * @s: memory area
 y* @n: bytes of memory
  * @b: constant bytes
+ * Return: s
  */
 
 

@@ -12,6 +12,7 @@
 int isNumber(char *str)
 {
 	char *endptr;
+
 	strtol(str, &endptr, 10);
 	return (*endptr == '\0');
 }
@@ -27,6 +28,7 @@ int main(int argc, char *argv[])
 {
 	int sum;
 	int i;
+
 	sum = 0;
 
 	if (argc == 1)

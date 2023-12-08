@@ -6,7 +6,7 @@
 /**
  * get_dnodeint_at_index - returns the nth node of a dlistint_t linked list.
  * @head: head of list
- * @inde: - index of the node
+ * @index: - index of the node
  * Return: nth node or NULL if fail
  */
 
